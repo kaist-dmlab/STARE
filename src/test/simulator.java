@@ -21,7 +21,7 @@ public class simulator {
 	static int K = 50; // number of neighbors
 	static int nW = 10000; // number of windows to process
 	static int fixedN = -1; // fix N by a positive integer value  
-	static double skipThred = 0.1; // 0~1
+	static double skipThred = 0.1; // between 0 and 1. the default optimal value is 0.1
 	static String printType = "Console"; // "Console" or "File"
 	static boolean reportOutlierList = false; // true or false
 	static BufferedWriter fw;
@@ -169,7 +169,7 @@ public class simulator {
             }
         }
     }
-	
+	//The default paraemter values for each data set
 	public static void loadDefaultArgs(String dataset) {
 		switch (dataset) {
 	         case "YahooA1":
