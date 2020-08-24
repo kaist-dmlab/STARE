@@ -30,7 +30,7 @@ public class simulator {
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws IOException, CloneNotSupportedException {
 		loadArgs(args);
-		//loadDefaultArgs(dataset);
+
 		if(printType.equals("File")){
 			String fileName = "Result_"+dataset+".txt";
 			fw = new BufferedWriter(new FileWriter(fileName, true));
