@@ -64,6 +64,7 @@ public class Window {
 		}
 
 	//remove the expired slide and corresponding cells using just slide ID
+	
 	private void removeSlideID(int slideID) {
 		
 		ArrayList<ArrayList<Integer>> emptyCellIdx = new ArrayList<ArrayList<Integer>>();
