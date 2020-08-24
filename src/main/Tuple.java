@@ -21,6 +21,7 @@ public class Tuple implements Comparable<Tuple>{
 			this.localDensity = Double.POSITIVE_INFINITY; //initialized to check if it has been computed previously.
 		}
 		
+		//comparing tuples 
 		@Override
 		public int compareTo(Tuple other) {
 			return this.outlierScore <= other.outlierScore ? 1 : - 1; // a higher outlier score gives a higher priority (score is not inversed)
