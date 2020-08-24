@@ -146,7 +146,8 @@ public class Detector {
 
 		return topNOutliers;
 	}
-		
+	
+	//Index new tuples 
 	public HashMap<ArrayList<Integer>,Cell> indexingSlide(ArrayList<Tuple> newTuples){
 		HashMap<ArrayList<Integer>,Cell> indexedSlide = new HashMap<ArrayList<Integer>,Cell>();
 		
