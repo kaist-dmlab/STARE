@@ -46,7 +46,6 @@ public class Detector {
 		//Clear updatedKCs
 		updatedKCs.clear();
 		
-		
 		if(numWindows == 1 || skipThred < 0) {
 			//if first window or noskip, conduct full procedures
 			updatedKCs.addAll(window.currentKCs.values());
