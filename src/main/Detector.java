@@ -222,6 +222,7 @@ public class Detector {
 	}
 	
 	/* Utilities */
+	//distance b/w kc and kc
 	public static double dist(KernelCenter kc1, KernelCenter kc2) {
 		double ss = 0;
 		for(int i = 0; i<kc1.id.size(); i++) { 
