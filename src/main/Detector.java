@@ -32,7 +32,6 @@ public class Detector {
 		this.candOutKCs = new PriorityQueue<KernelCenter>();
 		this.accumDenChg = new HashMap<ArrayList<Integer>, Double>();
 		this.skipThred = skipThred;
-		
 		this.window = new Window();
 	}
 	
