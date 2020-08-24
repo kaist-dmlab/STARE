@@ -7,6 +7,7 @@ import java.util.logging.Logger;
  * This class is from Luan's work (http://infolab.usc.edu/Luan/Outlier/)
  * @author Luan
  */
+
 public class MemoryThread extends Thread {
 	private static final double MegaBytes = 1024*1024;
     public double maxMemory = 0;
