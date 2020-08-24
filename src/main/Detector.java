@@ -68,7 +68,7 @@ public class Detector {
 							break;
 						}
 					}
-				//kc.accumDeltaWeightRatio = 0; //uncomment to consider only instant error	
+				//kc.accumDeltaWeightRatio = 0; //uncomment this to consider only instant error	
 				}
 			}
 		}
