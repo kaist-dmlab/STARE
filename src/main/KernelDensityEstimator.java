@@ -31,6 +31,7 @@ public class KernelDensityEstimator {
 		}
 	}
 	
+	//estimate density
 	public double getDensity(double[] x){
 		double density = 0.0;
 		updateBandwidth(x);
