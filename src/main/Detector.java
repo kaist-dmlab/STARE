@@ -172,8 +172,7 @@ public class Detector {
 		return indexedSlide;
 	}
 
-	
-	
+
 	//Get KernelCenter's local density
 	public void updateLocalDensity(KernelCenter kc) {
 		double cardTotal = 0;
