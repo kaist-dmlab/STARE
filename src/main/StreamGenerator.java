@@ -34,7 +34,8 @@ public class StreamGenerator {
 			line = br.readLine();
 		}
 	}
-
+	
+	//get new slide
 	public ArrayList<Tuple> getNewSlideTuples(int itr, int S) throws IOException {
 		ArrayList<Tuple> newSlide = new ArrayList<Tuple>();
 		this.br = new BufferedReader(new FileReader(filePath));
