@@ -36,6 +36,7 @@ public class Detector {
 		this.window = new Window();
 	}
 	
+	//Process new slide
 	public void slide(ArrayList<Tuple> newTuples, int slideID, int newOutliers) throws CloneNotSupportedException {
 		HashMap<ArrayList<Integer>,Cell> slideIn = indexingSlide(newTuples);
 		window.update(slideIn, slideID, nS, newOutliers);
