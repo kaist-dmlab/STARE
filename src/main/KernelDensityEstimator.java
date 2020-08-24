@@ -16,6 +16,7 @@ public class KernelDensityEstimator {
 		this.cardTotal = cardTotal;
 	}
 	
+	//update bandwidth
 	public void updateBandwidth(double[] x) {
 		double[] meanDist = new double[dim];
 		for(KernelCenter kc:kernelCenters) {
