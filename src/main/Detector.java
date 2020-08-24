@@ -173,7 +173,7 @@ public class Detector {
 	}
 
 
-	//Get KernelCenter's local density
+	//Get local density of a kernel center
 	public void updateLocalDensity(KernelCenter kc) {
 		double cardTotal = 0;
 		Collection<KernelCenter> neighborCandidate = window.currentKCs.values();
