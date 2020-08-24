@@ -76,7 +76,7 @@ public class KernelDensityEstimator {
 		return density;
 	}
 	
-	
+	//get Gaussian kernel value
 	public static double GaussianKernel(double x, double h) {
 		return (1.0/(Math.sqrt(2*Math.PI)*h)) * Math.exp(-0.5 * Math.pow(x, 2) / Math.pow(h, 2));
 	}
