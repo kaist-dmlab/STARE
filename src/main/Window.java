@@ -26,6 +26,7 @@ public class Window {
 		this.newKernelCenters = new HashSet<KernelCenter>();
 	}
 	
+	//update window
 	public void update(HashMap<ArrayList<Integer>,Cell> slideIn, int slideInID, int nS, int newOutliers) throws CloneNotSupportedException {
 		currentNetCards.clear();
 		newKernelCenters.clear();
