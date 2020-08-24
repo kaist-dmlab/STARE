@@ -15,6 +15,7 @@ public class Cell {
 		this.slideID = slideID;
 		this.tuples = new HashSet<Tuple>();
 		this.cellCenter = cellCenter;
+	
 	}
 
 	public int getCard() {
