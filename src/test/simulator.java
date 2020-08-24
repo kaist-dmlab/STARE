@@ -74,7 +74,7 @@ public class simulator {
 				Stack<Tuple> orderedTopNOut = new Stack<Tuple>();	
 				while(!topNOut.isEmpty()) orderedTopNOut.push(topNOut.poll());
 				
-				//Console or File output check
+				//Console or File output
 				if(reportOutlierList & printType.equals("Console")) {
 					System.out.print("At window "+numWindows+", detected top-N outliers IDs: ");
 				}else if(reportOutlierList) {
