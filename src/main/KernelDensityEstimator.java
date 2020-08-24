@@ -63,6 +63,7 @@ public class KernelDensityEstimator {
 		return density;
 	}
 	
+	//get density lower bound
 	public double getDensityLow(double[] x, double[] dimLength){
 		double density = 0.0;
 		for(KernelCenter kc: kernelCenters) {
