@@ -6,7 +6,6 @@ import java.util.HashSet;
 public class Cell {
 	public ArrayList<Integer> cellIdx;
 	public int slideID;
-        public int cellNum
 	public HashMap<ArrayList<Integer>,Cell> childCells;
 	public HashSet<Tuple> tuples;
 	public double[] cellCenter;
