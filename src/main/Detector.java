@@ -119,6 +119,7 @@ public class Detector {
 		}
 	}
 	
+	//Point-level detection
 	public PriorityQueue<Tuple> pointLevelDetect(int N, int numWindows) {
 		PriorityQueue<Tuple> topNOutliers = new PriorityQueue<Tuple>();
 		
