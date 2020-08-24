@@ -230,6 +230,7 @@ public class Detector {
 		 return Math.sqrt(ss);
 	}	
 	
+	//distance b/w values and values
 	public static double dist(double[] d1, double[] d2) {
 		double ss = 0;
 		for(int i = 0; i<d1.length; i++) { 
