@@ -271,7 +271,7 @@ public class Detector {
 			}
 		}
 		double avgh = sum/cnt; //average bandwidth
-		//double avgh = max; //conservative bandwdith
+		//double avgh = max; //conservative bandwdith (maximum bandwidth)
 		
 		return avgh;
 	}
