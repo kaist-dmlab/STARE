@@ -61,7 +61,7 @@ public class StreamGenerator {
 		return newSlide;
 	}
 	
-
+	//get new tuples whose ids are between start and end
 	public ArrayList<Tuple> getTuples(int start, int end) throws IOException {
 		ArrayList<Tuple> tuples = new ArrayList<Tuple>();
 		this.br = new BufferedReader(new FileReader(filePath));
