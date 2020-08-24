@@ -71,7 +71,7 @@ public class Detector {
 				}
 			}
 		}
-		cellLevelDetect(this.updatedKCs, N); //pick top-N KCs
+		cellLevelDetect(this.updatedKCs, N); //ick top-N KCs
 		
 		PriorityQueue<Tuple> outliers = pointLevelDetect(N, numWindows); //pick top-N outliers from candOutKCs
 		return outliers;
