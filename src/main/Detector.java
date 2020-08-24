@@ -78,12 +78,11 @@ public class Detector {
 		return outliers;
 	}
 
-
+	//Cell-level detection
 	public void cellLevelDetect(HashSet<KernelCenter> poolOfupdateKCs, int N){
 		for(KernelCenter kc:poolOfupdateKCs) {
 			updateLocalDensity(kc);
 		}
-		
 		
 		//Update outlier score
 		for(KernelCenter kc:window.currentKCs.values()) {
