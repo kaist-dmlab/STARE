@@ -14,7 +14,7 @@ import main.StreamGenerator;
 import main.Tuple;
 
 public class simulator {
-	static String dataset = "YahooA2";
+	static String dataset = "YahooA2"; //dataset name
 	static int W = 1421; //window size
 	static int S = 71; //slide size
 	static double R = 65; // size of a grid cell
