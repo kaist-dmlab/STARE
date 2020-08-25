@@ -1,6 +1,6 @@
 # Ultrafast Local Outlier Detection from a Data Stream with Stationary Region Skipping
 
-This is the implementation of the paper published in KDD 2020 (to appear).
+This is the implementation of the paper published in KDD 2020 [[Paper]](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70)[[Slide]](https://drive.google.com/file/d/11y7Gs703SKJBkPZ4nKKgua__dHXXMbkV/view?usp=sharing)[Video].
 
 ## 1. Overview
 Real-time outlier detection from a data stream is an increasingly important problem, especially as sensor-generated data streams abound in many applications owing to the prevalence of IoT and emergence of digital twins. Several density-based approaches have been proposed to address this problem, but arguably none of them is fast enough to meet the performance demand of real applications. This paper is founded upon a novel observation that, in many regions of the data space, data distributions hardly change across window slides. We propose a new algorithm, abbr. STARE, which identifies local regions in which data distributions hardly change and then skips updating the densities in those regions-a notion called stationary region skipping. Two techniques, data distribution approximation and cumulative net-change-based skip, are employed to efficiently and effectively implement the notion. Extensive experiments using synthetic and real data streams as well as a case study show that STARE is several orders of magnitude faster than the existing algorithms while achieving comparable or higher accuracy.
@@ -63,4 +63,15 @@ At window 1316, detected top-N outliers IDs: 93434 93435 93433 93430 93431 93436
 At window 1317, detected top-N outliers IDs: 93436 
 At window 1318, detected top-N outliers IDs: 94828 94847 94840 94852 94838 94841 94851 94839 94837 94850 94845 94842 94844 94846 94848 94827 94853 
 Dataset: YahooA1	W: 1415	S: 71	R: 60.0	K: 140	skipThred: 0.1	=>	RP: 0.464	AP: 0.435	avgCPUTime: 6.521	PeakMem: 4.92
+```
+
+## 5. Citation
+```
+@inproceedings{yoon2020ultrafast,
+  title={Ultrafast Local Outlier Detection from a Data Stream with Stationary Region Skipping},
+  author={Yoon, Susik and Lee, Jae-Gil and Lee, Byung Suk},
+  booktitle={Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  pages={1181--1191},
+  year={2020}
+}
 ```
