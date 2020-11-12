@@ -3,7 +3,7 @@ package main;
 import java.util.List;
 
 public class KernelDensityEstimator {
-	private List<KernelCenter> kernelCenters; 
+	private List<KernelCenter> kernelCenters; //kernel centers
 	private int dim;
 	public double[] h;
 	private double cardTotal;
