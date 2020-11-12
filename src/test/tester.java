@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class tester {
 	public static void main(String[] args) throws IOException, CloneNotSupportedException {
-		String D = "YahooA1"; 
+		String D = "YahooA1"; //data set
 		int W = 1415;
 		int S = 71;
 		double R = 60;
