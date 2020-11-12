@@ -9,7 +9,7 @@ public class tester {
 		int S = 71; //slide size
 		double R = 60; //distance threshold
 		int K = 140; //number of neighbors
-		double T = -1; //skip thred
+		double T = -1; //skip threshold
 		String raw = "--D "+D+" --R "+R+" --K "+K+" --W "+W+" --S "+S+" --T "+T;
 		simulator.main(raw.split(" "));
 		
