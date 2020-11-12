@@ -8,7 +8,7 @@ public class StreamGenerator {
 	private double[] maxValues; //max values
 	private double[] minValues; //min values
 	private BufferedReader br; //buffer reader
-	private String filePath;
+	private String filePath; //file path
 	
 	public StreamGenerator (String dataset) throws IOException {
 		filePath = "datasets/"+dataset+".csv";
