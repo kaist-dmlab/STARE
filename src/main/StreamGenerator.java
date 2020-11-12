@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class StreamGenerator {
-	private double[] maxValues;
-	private double[] minValues;
+	private double[] maxValues; //max values
+	private double[] minValues; //min values
 	private BufferedReader br; 
 	private String filePath;
 	
