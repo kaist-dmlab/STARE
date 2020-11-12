@@ -15,7 +15,6 @@ public class tester {
 		
 		for (int i = 0 ; i <= 10; i++) {
 			T = 0.1*i;
-			
 			raw = "--D "+D+" --R "+R+" --K "+K+" --W "+W+" --S "+S+" --T "+T;
 			simulator.main(raw.split(" "));
 			System.gc();
