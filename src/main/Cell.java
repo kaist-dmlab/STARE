@@ -8,7 +8,7 @@ public class Cell {
 	public int slideID; //slide id
 	public HashMap<ArrayList<Integer>,Cell> childCells; 
 	public HashSet<Tuple> tuples; //tuples
-	public double[] cellCenter;
+	public double[] cellCenter; //cell center
 
 	public Cell(ArrayList<Integer> cellIdx,  double[] cellCenter, int slideID){
 		this.cellIdx = cellIdx;
