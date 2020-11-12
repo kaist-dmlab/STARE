@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class StreamGenerator {
 	private double[] maxValues; //max values
 	private double[] minValues; //min values
-	private BufferedReader br; 
+	private BufferedReader br; //buffer reader
 	private String filePath;
 	
 	public StreamGenerator (String dataset) throws IOException {
