@@ -3,7 +3,7 @@ package main;
 import java.util.ArrayList;
 
 public class Tuple implements Comparable<Tuple>{
-		public int id;
+		public int id; //tuple id
 		public int slideID;
 		public double[] value;
 		public ArrayList<Integer> cellIdx;
