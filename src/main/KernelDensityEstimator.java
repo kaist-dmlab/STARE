@@ -6,7 +6,7 @@ public class KernelDensityEstimator {
 	private List<KernelCenter> kernelCenters; //kernel centers
 	private int dim; //dimensionality
 	public double[] h; //bandwidth
-	private double cardTotal;
+	private double cardTotal; //total cardnality
 	
 	
 	public KernelDensityEstimator(List<KernelCenter> kcs, int d, double cardTotal) {
