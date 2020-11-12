@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Tuple implements Comparable<Tuple>{
 		public int id; //tuple id
-		public int slideID;
+		public int slideID; //slide id
 		public double[] value;
 		public ArrayList<Integer> cellIdx;
 		public boolean outlier;
