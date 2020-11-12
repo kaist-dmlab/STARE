@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class Cell {
-	public ArrayList<Integer> cellIdx;
+	public ArrayList<Integer> cellIdx; //cell index
 	public int slideID;
 	public HashMap<ArrayList<Integer>,Cell> childCells;
 	public HashSet<Tuple> tuples;
