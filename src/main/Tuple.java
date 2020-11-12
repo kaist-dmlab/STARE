@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Tuple implements Comparable<Tuple>{
 		public int id; //tuple id
 		public int slideID; //slide id
-		public double[] value;
+		public double[] value; //value
 		public ArrayList<Integer> cellIdx;
 		public boolean outlier;
 		public double outlierScore;
