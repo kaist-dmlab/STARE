@@ -6,7 +6,7 @@ public class tester {
 	public static void main(String[] args) throws IOException, CloneNotSupportedException {
 		String D = "YahooA1"; //data set
 		int W = 1415; //window size
-		int S = 71;
+		int S = 71; //slide size
 		double R = 60;
 		int K = 140;
 		double T = -1;
