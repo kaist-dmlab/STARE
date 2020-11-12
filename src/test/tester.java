@@ -7,7 +7,7 @@ public class tester {
 		String D = "YahooA1"; //data set
 		int W = 1415; //window size
 		int S = 71; //slide size
-		double R = 60;
+		double R = 60; //distance threshold
 		int K = 140;
 		double T = -1;
 		String raw = "--D "+D+" --R "+R+" --K "+K+" --W "+W+" --S "+S+" --T "+T;
