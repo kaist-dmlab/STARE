@@ -8,8 +8,8 @@ public class tester {
 		int W = 1415; //window size
 		int S = 71; //slide size
 		double R = 60; //distance threshold
-		int K = 140;
-		double T = -1;
+		int K = 140; //number of neighbors
+		double T = -1; //skip thred
 		String raw = "--D "+D+" --R "+R+" --K "+K+" --W "+W+" --S "+S+" --T "+T;
 		simulator.main(raw.split(" "));
 		
