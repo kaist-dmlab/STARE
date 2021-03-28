@@ -1,7 +1,5 @@
 package main;
-
 import java.util.ArrayList;
-
 
 public class KernelCenter implements Cloneable, Comparable<KernelCenter>{
 	public ArrayList<Integer> id;
