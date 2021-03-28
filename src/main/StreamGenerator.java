@@ -94,4 +94,3 @@ public class StreamGenerator {
 		return this.minValues;
 	}
 }
-
