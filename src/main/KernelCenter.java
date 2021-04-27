@@ -1,7 +1,6 @@
 //package
 package main;
 
-
 //import
 import java.util.ArrayList;
 
