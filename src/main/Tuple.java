@@ -1,5 +1,5 @@
+// import
 package main;
-
 import java.util.ArrayList;
 
 public class Tuple implements Comparable<Tuple>{
