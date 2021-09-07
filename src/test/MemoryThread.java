@@ -1,6 +1,6 @@
 package test;
 import java.util.logging.Level;
-
+import java.util.logging.Logger;
 
 /**
  * This class is from Luan's work (http://infolab.usc.edu/Luan/Outlier/)
