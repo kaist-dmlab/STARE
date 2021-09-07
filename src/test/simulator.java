@@ -7,7 +7,6 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadMXBean;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
-import java.util.Stack;
 
 import main.Detector;
 import main.StreamGenerator;
