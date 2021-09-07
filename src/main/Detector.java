@@ -9,11 +9,13 @@ import java.util.HashSet;
 import java.util.PriorityQueue;
 
 public class Detector {
+	
 	public Window window;
 	public int dim;
 	public int nS;
 	public int K;
 	public int S;
+	
 	public double[] minValues;
 	public double[] dimLength;
 	public PriorityQueue<KernelCenter> candOutKCs;
