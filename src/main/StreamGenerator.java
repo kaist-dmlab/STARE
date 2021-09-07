@@ -7,6 +7,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+
+
 public class StreamGenerator {
 	private double[] maxValues; //max values
 	private double[] minValues; //min values
@@ -63,6 +65,7 @@ public class StreamGenerator {
 		}
 		return newSlide;
 	}
+	
 	
 	//get new tuples whose ids are between start and end
 	public ArrayList<Tuple> getTuples(int start, int end) throws IOException {
