@@ -1,7 +1,3 @@
-package main;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
 
 public class Cell {
 	public ArrayList<Integer> cellIdx; //cell index
