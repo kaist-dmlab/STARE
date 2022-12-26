@@ -75,4 +75,3 @@ Dataset: YahooA1	W: 1415	S: 71	R: 60.0	K: 140	skipThred: 0.1	=>	RP: 0.464	AP: 0.
   year={2020}
 }
 ```
-
